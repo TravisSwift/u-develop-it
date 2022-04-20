@@ -4,7 +4,9 @@
   "description": "A back end for application for using Express.js API, and MySQL.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
+  },
   },
   "repository": {
     "type": "git",

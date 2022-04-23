@@ -1,12 +1,21 @@
 {
-  "name": "u-develop-it",
+  "name": "vote-api",
   "version": "1.0.0",
-  "description": "A back end for application for using Express.js API, and MySQL.",
-  "main": "index.js",
+  "description": "Back-end APIs for a voting app.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
+  },
   "scripts": {
     "test": "jest",
     "start": "node server.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
   },
   "repository": {
     "type": "git",
@@ -26,4 +35,8 @@
   "devDependencies": {
     "jest": "^27.5.1"
   }
+  "bugs": {
+    "url": "https://github.com/TravisSwift/u-develop-it/issues"
+  },
+  "homepage": "https://github.com/TravisSwift/u-develop-it#readme"
 }
